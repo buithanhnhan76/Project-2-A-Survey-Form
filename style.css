@@ -1,0 +1,45 @@
+label{ 
+    margin-bottom: 20px;
+}
+input,select,textarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block; /*every input start a new line*/
+}
+.div-radio{
+    display: block; /*make every div-radio start a new line*/
+}
+.input-radio{
+    display: inline; /*make checkbox dont start a new line*/
+}
+body{
+    background: url(photos/back-ground-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 300px;
+}
+form{
+    background-color: rgba(66, 236, 245,0.5);
+    padding: 15px 0 15px 35px;
+    max-width: 550px;
+}
+#submit-button{
+    width: 500px;
+    padding: 15px 0 15px 0;
+    font-size: 1.2em;
+    color: white;
+    background-color: green;
+    margin: 35px 35px 35px 0;
+}
+header{
+    margin-left: 30px;
+}
+header h1{
+    margin-left: 30px;
+}
+select {
+    padding: 10px 10px 10px 10px;
+    color: gray;
+}
