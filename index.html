@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type = "text/css" href="style.css">
+        <title>Build A Survey Form </title>
+    </head>
+<body>
+    <header>
+        <h1>freeCodeCamp Survey Form</h1>
+        <p><em>Thank you for taking the time to help us improve the platform</em>s</p>
+    </header>
+    <main>
+        <form action="" method = "get">
+            <label for="">
+                Name <input type="text" placeholder="Enter your name" name = "name" required>
+            </label>
+            <label for="">
+                Email <input type="email" placeholder="Enter your email" name = "email" required>
+            </label>
+            <label for="">
+                Age(optional) <input type="text" placeholder="Age" name = "age" required>
+            </label>
+            <label for="role">
+                Which option best describes your current role? 
+                <select name="role" id="role" required>
+                    <option  disabled selected>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="fulltimejop">Full Time Jop</option>
+                    <option value="fulltimelearner">Full Time Learner</option>
+                    <option value="notsay">Prefer Not To Say</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label >
+                Would you recommend freeCodeCamp to a friend?
+                
+                <div class = "div-radio"><input type="radio" name = "recommend" class = "input-radio" value = "definitely"> Definitely</div>
+                <div class = "div-radio"><input type="radio" name = "recommend" class = "input-radio" value = "maybe"> Maybe</div>
+                <div class = "div-radio"><input type="radio" name = "recommend" class = "input-radio" value = "notsure"> Not sure</div>
+            </label>
+            <label >
+                What would you like to see improved? (Check all that apply)
+                <div class = "div-radio"><input type="checkbox" name = "option1" value="frontend"  class = "input-radio"> Front-end Projects</div>
+                <div class = "div-radio"><input type="checkbox" name = "option2" value="backend"  class = "input-radio"> Back-end Projects</div>
+                <div class = "div-radio"><input type="checkbox" name = "option3" value="datavisuali"  class = "input-radio"> Data Visualization</div>
+                <div class = "div-radio"><input type="checkbox" name = "option4" value="challenges"  class = "input-radio"> Challenges</div>
+                <div class = "div-radio"><input type="checkbox" name = "option5" value="opensources"  class = "input-radio"> Open Sources Community</div>
+                <div class = "div-radio"><input type="checkbox" name = "option6" value="gitterhelp"  class = "input-radio"> Gitter help rooms </div>
+                <div class = "div-radio"><input type="checkbox" name = "option7" value="videos"  class = "input-radio"> Videos</div>
+                <div class = "div-radio"><input type="checkbox" name = "option8" value="citymeetups"  class = "input-radio"> City meetups</div> 
+                <div class = "div-radio"><input type="checkbox" name = "option9" value="wiki"  class = "input-radio"> Wiki </div>
+                <div class = "div-radio"><input type="checkbox" name = "option10" value="forum"  class = "input-radio"> Forum </div>
+                <div class = "div-radio"><input type="checkbox" name = "option11" value="additioncourses"  class = "input-radio"> Addition Courses</div>
+            </label>
+            <label>
+                Any comments or suggestions ?
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </label>
+            <input type="submit" value = "Submit" id = "submit-button">
+        </form>
+    </main>
+</body>
+</html>
